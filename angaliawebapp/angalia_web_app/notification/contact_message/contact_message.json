@@ -1,0 +1,29 @@
+{
+ "attach_print": 0,
+ "channel": "System Notification",
+ "creation": "2024-06-03 19:16:03.479531",
+ "days_in_advance": 0,
+ "docstatus": 0,
+ "doctype": "Notification",
+ "document_type": "Contact Website Message",
+ "enabled": 1,
+ "event": "Submit",
+ "idx": 0,
+ "is_standard": 1,
+ "message": "<p>Potential Client from Website</p>\n",
+ "message_type": "Markdown",
+ "modified": "2024-06-03 20:10:45.059594",
+ "modified_by": "Administrator",
+ "module": "Angalia Web App",
+ "name": "Contact Message",
+ "owner": "Administrator",
+ "recipients": [
+  {
+   "receiver_by_document_field": "owner",
+   "receiver_by_role": "Administrator"
+  }
+ ],
+ "send_system_notification": 0,
+ "send_to_all_assignees": 0,
+ "subject": "Update from {{ doc.name }}"
+}

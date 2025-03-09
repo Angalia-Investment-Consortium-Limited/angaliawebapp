@@ -1,0 +1,79 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-03-05 13:43:35.535251",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "name1",
+  "email",
+  "business_name",
+  "type_of_app_needed",
+  "budget_range",
+  "do_you_have_an_existing_app"
+ ],
+ "fields": [
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email"
+  },
+  {
+   "fieldname": "business_name",
+   "fieldtype": "Data",
+   "label": "Business Name"
+  },
+  {
+   "fieldname": "type_of_app_needed",
+   "fieldtype": "Select",
+   "label": "Type of App Needed",
+   "options": "E-commerce,\nBooking,\nSocial,\nUtility,\nLifestyle,\nGame,\nSports,\nMusic,\nProductivity,\nNews/Information Outlets\nCustom\nOthers"
+  },
+  {
+   "fieldname": "budget_range",
+   "fieldtype": "Select",
+   "label": "Budget Range ",
+   "options": "6M-9M\n10M-24M\n25M-99M\n100M-170M\nAbove all the options iisted"
+  },
+  {
+   "fieldname": "do_you_have_an_existing_app",
+   "fieldtype": "Select",
+   "label": "Do You Have an Existing App? ",
+   "options": "Yes\nNo"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-03-05 15:39:26.390147",
+ "modified_by": "Administrator",
+ "module": "Angalia Web App",
+ "name": "Mobile App Project Planner",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1,
+ "track_views": 1
+}
