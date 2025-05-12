@@ -3,7 +3,7 @@ import Layout from '../components/Layout'
 import { Link } from "react-router-dom"
 import BannerContact from '../components/sections/BannerContact'
 import Breadcrumb from '../components/Breadcrumb'
-import ServiceSlider1 from "@/components/slider/ServiceSlider1"
+// import ServiceSlider1 from "@/components/slider/ServiceSlider1
 import WebSlider from '../components/slider/WebSlider'
 import bg25 from "../assets/images/background/contactimage.png"
 import icon60 from "../assets/images/icons/icon-60.png"

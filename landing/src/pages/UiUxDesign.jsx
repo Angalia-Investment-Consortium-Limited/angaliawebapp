@@ -63,7 +63,7 @@ const UiUxDesign = () => {
                                                 <div className="icon"><img src={icon60} alt="" /></div>
                                                 <h5>UI/UX DESIGN SERVICES & UI/UX AUDIT PACKAGES</h5>
                                                 <h4>AFROELEGANCE </h4>
-                                                <a to="/Afroelegance.pdf" download="Afroelegance.pdf"><i className="flaticon-right" />Download (33.0 mb)</a>
+                                                <a href="/Afroelegance.pdf" download="Afroelegance.pdf"><i className="flaticon-right" />Download (33.0 mb)</a>
                                             </div>
                                         </div> 
                                         <div className="widget widget_contact" style={{ backgroundImage: `url(${bg25})` }}>

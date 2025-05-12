@@ -25,6 +25,7 @@ import AccountingFinancing from './pages/AccountingFinancing'
 import AgritechSolution from './pages/AgritechSolutions'
 import Shuleni from './pages/products/Shuleni'
 import AfroElegance from './pages/products/AfroElegance'
+import AngaliaGPSPrivacy from './pages/AngaliaGpsPrivacy'
 
 
 
@@ -56,6 +57,9 @@ function App() {
 		<Route path='/agritech-solutions' element={ <AgritechSolution />} />
 		<Route path='/shuleni' element={ <Shuleni />} />
 		<Route path='/afroelegance' element={ <AfroElegance /> } />
+		<Route path='/angaliagps-privacy' element={ <AngaliaGPSPrivacy />} />
+		
+		
 		
 		
 
