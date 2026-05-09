@@ -4,6 +4,7 @@ import { Link } from "react-router-dom"
 import BannerContact from '../components/sections/BannerContact'
 import Breadcrumb from '../components/Breadcrumb'
 import CepraSlider from "../components/slider/CepraSlider"
+import CepraFreeTrialForm from '../components/sections/CepraFreeTrialForm'
 import bg25 from "../assets/images/background/contactimage.png"
 import bg30 from "../assets/images/background/CepraCover.png"
 import icon60 from "../assets/images/icons/icon-60.png"
@@ -19,7 +20,7 @@ const CepraPage = () => {
   return (
     <Layout headerStyle={5} footerStyle={5}   wrapperCls="home_5">
         <BannerContact />
-        <Breadcrumb breadcrumbTitle="Customization Enterprise Resource Planning Application (CEPRA) with ERPNEXT" />
+        <Breadcrumb breadcrumbTitle="Customization of Enterprise Resource Planning Application (CEPRA)" />
         <div>
         <section className="services-details">
                         <div className="auto-container">
@@ -80,7 +81,9 @@ CERPA comes with 1000+ objects to help you run your business</p></div>
                             </div>
                         </div>
                     </section>
-                    {/* Feature Section Two */}
+                    
+                    {/* CEPRA Free Trial Form Section */}
+                    <CepraFreeTrialForm />
                     
                     </div>
       

@@ -1,0 +1,162 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:AEVT-{#####}",
+ "creation": "2025-01-15 10:00:00.000000",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "title",
+  "event_date",
+  "status",
+  "published",
+  "column_break_1",
+  "location",
+  "registration_link",
+  "recording_link",
+  "section_break_2",
+  "short_description",
+  "description",
+  "section_break_3",
+  "highlights",
+  "section_break_4",
+  "who_should_attend",
+  "section_break_5",
+  "flyer"
+ ],
+ "fields": [
+  {
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Event Title",
+   "reqd": 1
+  },
+  {
+   "fieldname": "event_date",
+   "fieldtype": "Datetime",
+   "in_list_view": 1,
+   "label": "Event Date & Time",
+   "reqd": 1
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Status",
+   "options": "Upcoming\nPast",
+   "reqd": 1,
+   "default": "Upcoming"
+  },
+  {
+   "fieldname": "published",
+   "fieldtype": "Check",
+   "label": "Published",
+   "default": 0,
+   "description": "Check to make this event visible on the website"
+  },
+  {
+   "fieldname": "column_break_1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Data",
+   "label": "Location/Venue"
+  },
+  {
+   "fieldname": "registration_link",
+   "fieldtype": "Data",
+   "label": "Registration Link (URL)",
+   "description": "External registration link if not using the built-in form"
+  },
+  {
+   "fieldname": "recording_link",
+   "fieldtype": "Data",
+   "label": "Recording Link (URL)",
+   "description": "Link to event recording (for past events)"
+  },
+  {
+   "fieldname": "section_break_2",
+   "fieldtype": "Section Break",
+   "label": "Event Description"
+  },
+  {
+   "fieldname": "short_description",
+   "fieldtype": "Small Text",
+   "label": "Short Description",
+   "description": "Brief description shown in event listing"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Text Editor",
+   "label": "Full Description"
+  },
+  {
+   "fieldname": "section_break_3",
+   "fieldtype": "Section Break",
+   "label": "Event Highlights"
+  },
+  {
+   "fieldname": "highlights",
+   "fieldtype": "Table",
+   "label": "Highlights",
+   "options": "Angalia Event Highlight",
+   "description": "Key highlights or topics to be covered"
+  },
+  {
+   "fieldname": "section_break_4",
+   "fieldtype": "Section Break",
+   "label": "Target Audience"
+  },
+  {
+   "fieldname": "who_should_attend",
+   "fieldtype": "Text",
+   "label": "Who Should Attend",
+   "description": "Target audience for this event"
+  },
+  {
+   "fieldname": "section_break_5",
+   "fieldtype": "Section Break",
+   "label": "Event Flyer"
+  },
+  {
+   "fieldname": "flyer",
+   "fieldtype": "Attach Image",
+   "label": "Event Flyer/Banner"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-01-15 10:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Angalia Web App",
+ "name": "Angalia Event",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "read": 1,
+   "role": "Guest"
+  }
+ ],
+ "quick_entry": 0,
+ "sort_field": "event_date",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

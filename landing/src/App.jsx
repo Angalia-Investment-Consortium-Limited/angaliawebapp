@@ -26,6 +26,14 @@ import AgritechSolution from './pages/AgritechSolutions'
 import Shuleni from './pages/products/Shuleni'
 import AfroElegance from './pages/products/AfroElegance'
 import AngaliaGPSPrivacy from './pages/AngaliaGpsPrivacy'
+import Events from './pages/Events'
+import EventDetail from './pages/EventDetail'
+import CommodityTrading from './pages/CommodityTrading'
+import Commodities from './pages/Commodities'
+import BuyerInquiry from './pages/BuyerInquiry'
+import SupplierOnboarding from './pages/SupplierOnboarding'
+import GlobalPartnerships from './pages/GlobalPartnerships'
+import GlobalPartnershipsContact from './pages/GlobalPartnershipsContact'
 
 
 
@@ -57,8 +65,15 @@ function App() {
 		<Route path='/agritech-solutions' element={ <AgritechSolution />} />
 		<Route path='/shuleni' element={ <Shuleni />} />
 		<Route path='/afroelegance' element={ <AfroElegance /> } />
-		<Route path='/angaliagps-privacy' element={ <AngaliaGPSPrivacy />} />
-		
+		<Route path='/angalia-gps-privacy' element={ <AngaliaGPSPrivacy />} />
+		<Route path='/events' element={ <Events /> } />
+		<Route path='/events/:eventId' element={ <EventDetail /> } />
+		<Route path='/commodity-trading' element={ <CommodityTrading /> } />
+		<Route path='/commodities' element={ <Commodities /> } />
+		<Route path='/commodity-trading/buyer-inquiry' element={ <BuyerInquiry /> } />
+		<Route path='/commodity-trading/supplier-onboarding' element={ <SupplierOnboarding /> } />
+		<Route path='/global-partnerships' element={ <GlobalPartnerships /> } />
+		<Route path='/global-partnerships/contact' element={ <GlobalPartnershipsContact /> } />
 		
 		
 		

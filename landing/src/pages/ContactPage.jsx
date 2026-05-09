@@ -93,8 +93,8 @@ const ContactPage = () => {
                                                 <div className="icon"><img src={icon51} alt="" /></div>
                                                 <h4>Call us on</h4>
                                                 <ul>
-                                                    <li><Link href="tel:+255627669360">+255 627 669 360 </Link></li>
-                                                    <li><Link href="tel:+255768017100">+255 768 017 100</Link></li>
+                                                    <li><Link href="tel:255696240077">+255 696 240 077</Link></li>
+                                                    <li><Link href="tel:+255627669360">+255 627 669 360</Link></li>
                                                 </ul>
                                             </div>
                                         </div>

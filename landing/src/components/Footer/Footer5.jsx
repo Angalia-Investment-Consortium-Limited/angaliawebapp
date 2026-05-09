@@ -50,7 +50,7 @@ export default function Footer5() {
                                             <div className="widget-content">
                                                 <ul>
                                                 <li><Link to="/business-process-and-technology-optimization">Business Process and Technology Optimizaiton</Link></li>
-                        <li><Link to="/customization-enterprise-resource-plannig">Customization Enterprise Resource Planning Application (CEPRA) with ERPNEXT</Link></li>
+                        <li><Link to="/customization-enterprise-resource-plannig">Customization Enterprise Resource Planning Application (CEPRA)</Link></li>
                         <li><Link to="/mobile-app-development">Mobile App Development</Link></li>
                         <li><Link to="/web-design-development">Web Design Development</Link></li>
                         <li><Link to="/ui-ux-design">UI/UX Design</Link></li>
@@ -58,6 +58,8 @@ export default function Footer5() {
                         <li><Link to="/call-center-setup">Call Center Setup</Link></li>
                         <li><Link to="/accounting-finance-outsourcing">Accounting and Finance Outsourcing</Link></li>
                         <li><Link to="/agritech-solutions">Agritech Solutions</Link></li>
+                        <li><Link to="/commodity-trading">Commodity Trading</Link></li>
+                        <li><Link to="/global-partnerships">Global Partnerships</Link></li>
                                                 </ul>
                                             </div>
                                         </div> 
@@ -105,7 +107,10 @@ export default function Footer5() {
                 <div className="footer-bottom">
                     <div className="auto-container">
                         <div className="row m-0 justify-content-between">
-                            <div className="copyright"><Link href="#">© {new Date().getFullYear()} </Link> ANGALIA INVESTMENT CONSORTIUM LIMITED, All Rights Reserved.</div>
+                            <div className="copyright" style={{ width: '100%', textAlign: 'center' }}>
+                                <Link href="#">© {new Date().getFullYear()} </Link> ANGALIA INVESTMENT CONSORTIUM LIMITED, All Rights Reserved.
+                                <div style={{ fontSize: '12px', marginTop: '5px', opacity: 0.8 }}>Global Partnerships & Investment Facilitation — AICL</div>
+                            </div>
                             {/* <ul className="menu">
                                 <li><Link href="#">Privacy Policy</Link></li>
                                 <li><Link href="#">Terms &amp; Conditions</Link></li>

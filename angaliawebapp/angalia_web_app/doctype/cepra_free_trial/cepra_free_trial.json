@@ -1,0 +1,111 @@
+
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:CEPRA-TRIAL-{#####}",
+ "creation": "2025-01-10 12:00:00.000000",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "full_name",
+  "company_name",
+  "email_address",
+  "phone_number",
+  "role_position",
+  "industry",
+  "preferred_modules",
+  "message"
+ ],
+ "fields": [
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Full Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "company_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Company/Organization Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "email_address",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Email Address",
+   "reqd": 1
+  },
+  {
+   "fieldname": "phone_number",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Phone Number",
+   "reqd": 1
+  },
+  {
+   "fieldname": "role_position",
+   "fieldtype": "Data",
+   "label": "Role/Position"
+  },
+  {
+   "fieldname": "industry",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Industry",
+   "options": "Manufacturing\nRetail & Wholesale\nAgriculture\nNGOs & Non-Profits\nEducation\nHealth Services\nTransport & Logistics\nFinance & Microfinance\nHospitality & Tourism\nConstruction & Real Estate\nOther",
+   "reqd": 1
+  },
+  {
+   "fieldname": "preferred_modules",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "label": "Preferred Module(s) for Trial",
+   "reqd": 1
+  },
+  {
+   "fieldname": "message",
+   "fieldtype": "Text",
+   "label": "Message/Special Request"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-01-10 12:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Angalia Web App",
+ "name": "CEPRA Free Trial",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "Guest",
+   "share": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

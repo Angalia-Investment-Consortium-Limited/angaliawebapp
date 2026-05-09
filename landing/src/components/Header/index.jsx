@@ -33,8 +33,8 @@ export default function Header5({ scroll, isMobileMenu, handleMobileMenu, isSide
                             </div>
                             <div className="top-right">
                                 <ul className="contact-info">
-                                    <li><a href="tel:+18005554400"><i className="flaticon-phone" />+255 768 017 100 </a></li>
-                                    <li><a href="tel:+18005554400"><i className="flaticon-mail-1" />info@aicl.co.tz</a></li>
+                                    <li><a href="tel:+2556240077"><i className="flaticon-phone" />+255 696 240 077</a></li>
+                                    <li><a href="mailto:business@aicl.co.tz"><i className="flaticon-mail-1" />business@aicl.co.tz</a></li>
                                 </ul>
                             </div>
                         </div>

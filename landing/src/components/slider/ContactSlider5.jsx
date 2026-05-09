@@ -69,7 +69,7 @@ export default function ContactSlider5() {
                             <li>6TH Floor</li>
                             <li>Dar es Salaam, TANZANIA </li>
                             <li>APPOINTMENT ONLY</li>
-                            <li>+255 768 017 100</li>
+                            <li>+255 696 240 077</li>
                             <li>business@aicl.co.tz</li>
                         </ul>
                         <Link to="#" className="read-more-link">Make an appointment<i className="fa fa-caret-right" /></Link>
@@ -82,7 +82,7 @@ export default function ContactSlider5() {
                         <ul>
                             <li>Plot No 1249 / 11 Bibi Titi Mohammed Road</li>
                             <li>Mon - Friday 09.00 to 06.00 Saturday:Closed</li>
-                            <li>+255 768 017 100</li>
+                            <li>+255 696 240 077</li>
                             <li>business@aicl.co.tz</li>
                         </ul>
                         <Link href="#" className="read-more-link">Get Direction <i className="fa fa-caret-right" /></Link>

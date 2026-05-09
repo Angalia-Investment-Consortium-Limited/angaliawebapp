@@ -12,6 +12,7 @@ import News from '../components/sections/News'
 import Award from '../components/sections/Award'
 import Contact from '../components/sections/Contact'
 import Client from '../components/sections/Client'
+import NewDivisions from '../components/sections/NewDivisions'
 
 
 
@@ -19,6 +20,7 @@ const Home = () => {
   return (
     <Layout headerStyle={5} footerStyle={5} wrapperCls="home_5">
       <Banner/>
+      <NewDivisions />
       {/* <Feature /> */}
       <About />
       {/* <Services /> */}

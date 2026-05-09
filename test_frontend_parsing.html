@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Event Date Parsing Test</title>
+</head>
+<body>
+    <h1>Event Date Parsing Test</h1>
+    <div id="results"></div>
+
+    <script>
+        // Simulate the API response
+        const apiResponse = {
+            "event_date": "2025-10-07T18:00:00",
+            "status": "Upcoming",
+            "title": "CEPRA ONLINE TUESDAYS"
+        };
+
+        // Test the date parsing (same logic as EventDetail.jsx)
+        function formatDate(dateString) {
+            if (!dateString) return 'Date not available';
+            
+            try {
+                const date = new Date(dateString);
+                
+                if (isNaN(date.getTime())) {
+                    return 'Invalid Date';
+                }
+                
+                return date.toLocaleDateString('en-US', {
+                    weekday: 'long',
+                    year: 'numeric',
+                    month: 'long',
+                    day: 'numeric',
+                    hour: '2-digit',
+                    minute: '2-digit'
+                });
+            } catch (error) {
+                return 'Date format error';
+            }
+        }
+
+        // Run the test
+        const results = document.getElementById('results');
+        
+        results.innerHTML = `
+            <h2>Test Results:</h2>
+            <p><strong>API Date String:</strong> ${apiResponse.event_date}</p>
+            <p><strong>Parsed Date Object:</strong> ${new Date(apiResponse.event_date)}</p>
+            <p><strong>Is Valid:</strong> ${!isNaN(new Date(apiResponse.event_date).getTime())}</p>
+            <p><strong>Formatted Date:</strong> ${formatDate(apiResponse.event_date)}</p>
+            <p><strong>Status:</strong> ${apiResponse.status}</p>
+            <hr>
+            <h3>Expected Output:</h3>
+            <p><strong>Formatted Date:</strong> Tuesday, October 7, 2025, 06:00 PM</p>
+            <p><strong>Status Badge:</strong> Upcoming Event (green)</p>
+        `;
+    </script>
+</body>
+</html>

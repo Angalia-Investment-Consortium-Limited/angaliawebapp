@@ -24,7 +24,7 @@ export default function Menu() {
                 <li className="dropdown"><Link to="#">Services</Link>
                     <ul>
                         <li><Link to="/business-process-and-technology-optimization">Business Process and Technology Optimizaiton</Link></li>
-                        <li><Link to="/customization-enterprise-resource-plannig">Customization Enterprise Resource Planning Application (CEPRA) with ERPNEXT</Link></li>
+                        <li><Link to="/customization-enterprise-resource-plannig">Customization of Enterprise Resource Planning Application (CEPRA)</Link></li>
                         <li><Link to="/mobile-app-development">Mobile App Development</Link></li>
                         <li><Link to="/web-design-development">Web Design Development</Link></li>
                         <li><Link to="/ui-ux-design">UI/UX Design</Link></li>
@@ -32,9 +32,11 @@ export default function Menu() {
                         <li><Link to="/call-center-setup">Call Center Setup</Link></li>
                         <li><Link to="/accounting-finance-outsourcing">Accounting and Finance Outsourcing</Link></li>
                         <li><Link to="/agritech-solutions">Agritech Solutions</Link></li>
+                        <li><Link to="/commodity-trading">Commodity Trading</Link></li>
                         
                     </ul>
                 </li>
+                <li><Link to="/global-partnerships">Global Partnerships</Link></li>
                 {/* <li className="dropdown"><Link to="#">Products</Link>
                     <ul>
                         <li><Link to="/ongea">Ongea </Link></li>
@@ -61,8 +63,9 @@ export default function Menu() {
                                 <li><Link to="/team-details">Team Details</Link></li>
                             </ul>
                         </li> */}
-                  
 
+                  
+                <li><Link to="/events">Events</Link></li>
                 <li><Link to="/contactus-page">Contact Us</Link></li>
                 
                 {/* <li className="dropdown"><Link to="#">Pages</Link>
